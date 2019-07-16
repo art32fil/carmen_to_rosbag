@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 
 import tf
 from tf2_msgs.msg import TFMessage

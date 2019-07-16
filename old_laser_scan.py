@@ -1,4 +1,4 @@
-#! /usr/bin/pyhton
+#!/usr/bin/pyhton
 
 from sensor_msgs.msg import LaserScan
 import tf
