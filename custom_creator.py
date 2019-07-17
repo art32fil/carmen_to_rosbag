@@ -75,6 +75,8 @@ class bag_creator:
 				print_err(help_str())
 				print_err("Job's interrupted. Exiting...")
 				exit(-1)
+			if not hasattr(self.modules[-1], 'message_types') or not hasattr(self.modules[-1], 'create_messages'):
+				del self.modules[-1]
 		return self.modules
 	
 	def set_self_params(self, words):
